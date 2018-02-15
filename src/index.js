@@ -1,7 +1,23 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './App'
-import registerServiceWorker from './registerServiceWorker'
+import {Provider} from "react-redux"
+import {ThemeProvider} from 'styled-components'
 
-ReactDOM.render(<App />, document.getElementById('root'))
-registerServiceWorker()
+
+import App from "./components/App"
+
+// theming at general level
+const theme = {
+
+}
+
+
+const renderApp = (Component) => {
+  <ThemeProvider theme={theme}>
+    <Provider>
+      <Component />
+    </Provider>
+  </ThemeProvider>, document.getElementById("app")
+}
+
+
+renderApp(App)
