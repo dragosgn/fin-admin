@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
     "react-scripts": "1.1.1",
     "babel-loader": "^7.0.0",
     "babel-plugin-styled-components": "^1.1.7",
@@ -34,14 +34,12 @@
     "query-string": "^5.0.0",
     "rc-slider": "^8.6.0",
     "rc-tooltip": "^3.4.8",
-    "react": "^15.6.1",
     "react-apollo": "^1.4.8",
     "react-autosize-textarea": "^3.0.1",
     "react-circular-progressbar": "^0.2.1",
     "react-click-outside": "^3.0.0",
     "react-datepicker": "^0.34.0",
     "react-day-picker": "^6.1.0",
-    "react-dom": "^15.6.1",
     "react-easy-swipe": "0.0.13",
     "react-excel-workbook": "0.0.4",
     "react-fontawesome": "^1.6.1",
@@ -77,5 +75,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0"
   }
 }
